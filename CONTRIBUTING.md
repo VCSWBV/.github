@@ -23,12 +23,16 @@ factual.
 
 ## Review
 
-1. Run the repository's checks locally before you push. CI must pass before a merge.
-2. Let the automated reviewers finish their rounds. Address or answer each comment and resolve the conversation.
-3. Then request a human reviewer yourself. Code owners are requested automatically only for sensitive paths, such as deployment and security
-   workflows, so most pull requests have no automatic reviewer.
+1. Open a draft pull request early and mark it ready when CI is green. Never merge past red CI.
+2. Let the automated reviewers finish their rounds. Address or answer each comment, and resolve every conversation.
+3. Move the Jira issue to Code Review and request a human reviewer yourself, preferably someone who knows the area. Code owners are requested
+   automatically only for sensitive paths, such as deployment and security workflows, so most pull requests have no automatic reviewer.
 4. A colleague who did not write the change reviews it substantively and approves it. Automated review is advisory and never counts as that
-   approval.
+   approval. Aim to review on the same working day.
+
+Reviewers check correctness and tests, fit with existing patterns, security and data protection, readability, migrations and backwards
+compatibility, and the ticket's acceptance criteria. Work is only done when it meets the Definition of Done, which the pull request template
+summarises.
 
 ## Data and secrets
 

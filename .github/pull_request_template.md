@@ -9,15 +9,20 @@ The squash merge uses this title and body as the commit on main, so keep the bod
 
 ## Testing
 
-<!-- How you verified it: tests added or updated, and anything checked by hand. -->
+<!-- The automated tests you added or changed, and anything you checked by hand. -->
 
 ## Deploy steps
 
-<!-- Anything a person must do on deploy (a command, a config change, a data fix), or "None". -->
+<!-- Anything a person must do when this is deployed, such as a command, new configuration or environment variables, or a data fix. Write "None" if
+there is nothing. Anything not done at deploy gets a follow-up ticket. -->
 
-## Checklist
+## Definition of Done
 
-- [ ] The repository's checks pass locally
-- [ ] Tests added or updated, or not needed
-- [ ] Only synthetic data, and no secrets or personal data
-- [ ] Self-reviewed
+CI checks the tests, style and static analysis. Tick what it cannot check, or strike through what does not apply.
+
+- [ ] Automated tests cover the change, including a regression test for a bug fix
+- [ ] No unnecessary dependency updates
+- [ ] New configuration or environment variables are documented and added to every environment
+- [ ] Documentation is updated for API, architecture or domain changes
+- [ ] Privacy, security or Compliance approval is in place where a trigger applies
+- [ ] The PO knows about new permissions or changed behaviour
