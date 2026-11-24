@@ -7,14 +7,15 @@ These rules apply to every VCSWBV repository. A repository's own CONTRIBUTING.md
 Branch from `main` and keep each pull request to one purpose. Name the branch after its type and ticket, for example
 `feat/VF-1234-short-description`.
 
-Commits and pull request titles follow [Conventional Commits](https://www.conventionalcommits.org/), with the Jira ticket as the scope:
+Commits and pull request titles follow [Conventional Commits](https://www.conventionalcommits.org/). Add the Jira ticket as the scope when there is one:
 
 ```text
-feat(VF-1234): add the LKV forecast export
-fix(DH-567): keep the sync status for invitees without activity
+feat(VF-1234): add a CSV export
+fix(VF-1234,VF-1235): keep the filter after paging
+docs: clarify the setup steps
 ```
 
-Use VF tickets, or DH tickets in the repositories the Datahub team owns. Valid types are `feat`, `fix`, `chore`, `refactor`, `docs`, `test`, `ci`,
+The accepted ticket prefixes are VF, DH and DO. A repository's own CONTRIBUTING.md says which one it uses. Valid types are `feat`, `fix`, `chore`, `refactor`, `docs`, `test`, `ci`,
 `perf`, `style`, `build` and `revert`. A breaking change adds `!` before the colon.
 
 Pull requests are squash merged. The title and body become the commit on `main`, so fill in the pull request template and keep the body short and

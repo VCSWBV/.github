@@ -1,5 +1,5 @@
 <!--
-Title: type(VF-1234): imperative summary, for example feat(VF-1234): add the LKV forecast export.
+Title: type(VF-1234): imperative summary, with the ticket scope optional, for example feat(VF-1234): add a CSV export.
 The squash merge uses this title and body as the commit on main, so keep the body short and factual.
 -->
 
