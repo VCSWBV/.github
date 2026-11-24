@@ -7,7 +7,7 @@ issue, pull request or discussion, and do not include personal data that you cam
 
 ## For VCSW colleagues
 
-Report a leaked secret or an exposure of personal data the same working day to the Engineering Manager and Privacy Officer via jz@vcsw.nl.
+Report a leaked secret or an exposure of personal data the same working day to the Engineering Manager and Privacy Officer at jz@vcsw.nl.
 
 Treat a committed secret as exposed to everyone who can read the repository, even after a revert. Revoke or rotate it first. Do not rewrite
 published history without an explicit decision.
