@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 
-Email em@vcsw.nl with the affected application or repository, how to reproduce the issue and what an attacker could do with it. Do not open a public
+Email the Engineering Manager at em@vcsw.nl with the affected application or repository, how to reproduce the issue and what an attacker could do with it. Do not open a public
 issue, pull request or discussion, and do not include personal data that you came across.
 
 ## For VCSW colleagues
